@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/">Portfolio</a>
+        <nav class="main-nav">
+          <a href="#hero">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="app">
+      <section id="hero" class="hero-section">
+        <div class="hero-copy">
+          <span class="eyebrow">Data Science & Network Marketing</span>
+          <h1 id="hero-title">Innovative Portfolio Work</h1>
+          <p id="hero-subtitle">Building strong analytics, product thinking, and growth systems for modern businesses.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card">
+            <img class="avatar" src="/static/profile.svg" alt="Profile" />
+            <div class="hero-card-body">
+              <p class="hero-card-label">Featured skill</p>
+              <h2>Data Science Strategy</h2>
+              <p>From modeling to go-to-market, I connect data-driven solutions with revenue growth.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-panel"> </section>
+      <section id="skills" class="section-panel"></section>
+      <section id="projects" class="section-panel"></section>
+      <section id="contact" class="section-panel"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner"></div>
+    </footer>
+  </div>
+
+  <script>window.API_ORIGIN = 'http://127.0.0.1:8000';</script>
+  <script src="app.js"></script>
+</body>
+</html>
